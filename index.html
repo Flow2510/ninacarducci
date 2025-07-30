@@ -34,13 +34,25 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img fetchpriority="high" width="1920" height="1080" src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100 h-100" alt="Homme en costume traversant un passage piéton">
+					<picture>
+						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-small.webp" type="image/webp" media="(max-width: 700px)">
+						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" type="image/webp" media="(min-width: 700px)">
+						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" alt="Homme en costume traversant un passage piéton" fetchpriority="high" class="d-block w-100 h-100" width="1920" height="1080">
+					</picture>
 				</div>
 				<div class="carousel-item">
-					<img loading="lazy" width="1920" height="1080" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100 h-100" alt="Foule de spectateurs en concert">
+					<picture>
+						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-small.webp" type="image/webp" media="(max-width: 700px)">
+						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" type="image/webp" media="(min-width: 700px)">
+						<img loading="lazy" width="1920" height="1080" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100 h-100" alt="Foule de spectateurs en concert">
+					</picture>
 				</div>
 				<div class="carousel-item">
-					<img loading="lazy" width="1920" height="1080" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100 h-100" alt="Couple s’embrassant lors de leur mariage">
+					<picture>
+						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-small.webp" type="image/webp" media="(max-width: 700px)">
+						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" type="image/webp" media="(min-width: 700px)">						
+						<img loading="lazy" width="1920" height="1080" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100 h-100" alt="Couple s’embrassant lors de leur mariage">
+					</picture>
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -57,7 +69,11 @@
 <main>
 	<section id="about">
 		<div class="picture left">
-			<img src="./assets/images/nina.webp" alt="Nina Carducci">
+			<picture>
+				<source srcset="./assets/images/nina-small.webp" type="image/webp" media="(max-width: 700px)">
+				<source srcset="./assets/images/nina.webp" type="image/webp" media="(min-width: 700px)">	
+				<img src="./assets/images/nina.webp" alt="Nina Carducci">
+			</picture>
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
@@ -70,15 +86,51 @@
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concert-picture.webp" alt="Jeux de lumière rouge sur scène pendant un concert"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-man-wearing-suit.webp" alt="Homme en costume posant pour un portrait professionnel"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-womans-around-office.webp" alt="Groupe de personnes riant autour d'une table pendant un événement d’entreprise"/>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-hand-in-wedding.webp" alt="Bras tendus se rejoignant pendant une cérémonie de mariage"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-man-portrait.webp" alt="Portrait d’un homme en contre-jour sous la lumière du soleil"/>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-wedding-couple.webp" alt="Couple riant devant un palmier lors de leur mariage"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-woman-portrait.webp" alt="Portrait d’une femme posant avec une main derrière la tête, derrière un grillage"/>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-singer-picture.webp" alt="Chanteur sur scène avec jeu de fumé rouge et gris"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-women-behind-computer.webp" alt="Une femme riant devant son ordinateur portable"/>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/concerts/aaron-paul-concert-picture-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/concerts/aaron-paul-concert-picture.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-concert-picture.webp" alt="Jeux de lumière rouge sur scène pendant un concert">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/entreprise/ali-morshedlou-man-wearing-suit-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/entreprise/ali-morshedlou-man-wearing-suit.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-man-wearing-suit.webp" alt="Homme en costume posant pour un portrait professionnel">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/entreprise/jason-goodman-womans-around-office-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/entreprise/jason-goodman-womans-around-office.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-womans-around-office.webp" alt="Groupe de personnes riant autour d'une table pendant un événement d’entreprise">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/mariage/hannah-busing-hand-in-wedding-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/mariage/hannah-busing-hand-in-wedding.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-hand-in-wedding.webp" alt="Bras tendus se rejoignant pendant une cérémonie de mariage">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/portraits/ade-tunji-man-portrait-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/portraits/ade-tunji-man-portrait.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-man-portrait.webp" alt="Portrait d’un homme en contre-jour sous la lumière du soleil">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/mariage/jakob-owens-wedding-couple-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/mariage/jakob-owens-wedding-couple.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-wedding-couple.webp" alt="Couple riant devant un palmier lors de leur mariage">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/portraits/nino-van-prattenburg-woman-portrait-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/portraits/nino-van-prattenburg-woman-portrait.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-woman-portrait.webp" alt="Portrait d’une femme posant avec une main derrière la tête, derrière un grillage">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/concerts/austin-neill-singer-picture-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/concerts/austin-neill-singer-picture.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-singer-picture.webp" alt="Chanteur sur scène avec jeu de fumé rouge et gris">
+				</picture>
+				<picture class="gallery-item">
+					<source srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-women-behind-computer-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-women-behind-computer.webp" type="image/webp" media="(min-width: 700px)">
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-women-behind-computer.webp" alt="Une femme riant devant son ordinateur portable">
+				</picture>
 			</div>
 		</div>
 		<div class="quote">
@@ -126,31 +178,35 @@
 			</div>
 		</div>
 	</section>
-	<section class="quote">
+	<div class="quote">
 		<figure>
 			<blockquote>
 				<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</section>
+	</div>
 	<section id="contact">
 		<div class="container">
 			<div class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<form action="#" method="post">
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
 					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-					<input type="submit" value="Envoyer"/>
+					<input type="submit" value="Envoyer">
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.webp" alt="Appareil photo illuminé par une lumière rouge">
+				<picture>
+					<source srcset="./assets/images/camera-small.webp" type="image/webp" media="(max-width: 700px)">
+					<source srcset="./assets/images/camera.webp" type="image/webp" media="(min-width: 700px)">	
+					<img src="./assets/images/camera.webp" alt="Appareil photo illuminé par une lumière rouge">
+				</picture>
 			</div>
 		</div>
 	</section>
