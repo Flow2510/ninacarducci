@@ -242,6 +242,16 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+footer{
+	padding: 2rem;
+	background-color: #2C2C2C; /* gris très foncé */
+	color: #fff;
+}
+
+footer i{
+	color: #BEB45A;
+	margin-right: 0.5rem;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
