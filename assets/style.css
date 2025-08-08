@@ -250,7 +250,11 @@ footer{
 
 footer i{
 	color: #BEB45A;
-	margin-right: 0.5rem;
+	margin-right: 1rem;
+}
+
+.info__icon{
+	font-size: 2rem;
 }
 
 @media all and (max-width: 1180px) {
