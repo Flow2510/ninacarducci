@@ -257,6 +257,20 @@ footer i{
 	font-size: 2rem;
 }
 
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  color: #000; /* texte noir bien visible */
+  background-color: #fff; /* fond blanc si besoin */
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
